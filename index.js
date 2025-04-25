@@ -1,4 +1,4 @@
-var buttonColours = ["red", "blue", "green", "yellow"]
+var buttonColours = ["pink", "blue", "green", "yellow"]
 
 var gamePattern = []
 var userClickedPattern = []
