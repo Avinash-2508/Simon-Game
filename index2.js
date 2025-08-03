@@ -25,7 +25,7 @@ $(".btn").click(function(){
 function checkAnswer(currentLevel){
 
 }
-function nextSequence(){
+function (){
     level++
     var randomNumber = Math.floor(Math.random()*4)
     var randomChosenColour = buttonColours[randomNumber]
@@ -39,3 +39,4 @@ function playSound(sound){
     var audio = new Audio("sounds/"+sound+".mp3")
     audio.play()
 }
+
