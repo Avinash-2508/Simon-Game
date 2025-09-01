@@ -1,7 +1,7 @@
 var buttonColours = ["red", "blue", "green", "yellow"]
 
 var gamePattern = []
-var userClickedPattern = [];
+var userClickedPattern = []
 
 var started = false
 var level = 0
@@ -72,6 +72,7 @@ function startOver() {
     gamePattern = []
     started = false
 }
+
 
 
 
