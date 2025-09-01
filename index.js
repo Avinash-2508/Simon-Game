@@ -1,4 +1,4 @@
-var buttonColours = ["red", "blue", "green", "yellow"]
+var buttonColours = ["red", "blue", "green", "orange"]
 
 var gamePattern = []
 var userClickedPattern = []
@@ -72,4 +72,5 @@ function startOver() {
     gamePattern = []
     started = false
 }
+
 
