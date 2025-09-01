@@ -9,7 +9,7 @@ var level = 0
 $(document).keydown(function(){
     if(!started){
         $("#level-title").text("Level "+ level)
-        nextSequence(
+        nextSequence()
         started = true
     }
 })
@@ -72,6 +72,7 @@ function startOver() {
     gamePattern = []
     started = false
 }
+
 
 
 
